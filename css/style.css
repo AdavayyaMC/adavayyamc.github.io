@@ -702,3 +702,54 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+    /* General section styling */
+#casestudy {
+  background: #eaf6fb; /* soft light blue background */
+  padding: 60px 20px;
+  color: #002f4b; /* dark slate text */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container */
+#casestudy .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Section Title */
+#casestudy .section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #003e66;
+}
+
+/* Individual case study card */
+.case-card {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 87, 158, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.case-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading inside case */
+.case-card h3 {
+  color: #005999;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs inside case */
+.case-card p {
+  margin: 6px 0;
+  line-height: 1.6;
+}
+
